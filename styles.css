@@ -69,14 +69,19 @@ nav h4 {
   ========================================
 */
 
-/* main {
-  margin-top: 20rem;
-} */
-
 .main-section {
   height: 30%;
   padding-top: 70px;
 }
+
+/* .gray-gradient {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .05) url(./images/image-gradient.png) no-repeat;
+  background-size: 100% 100%;
+  z-index: 9;
+} */
 
 .main-article {
   width: 97%;
