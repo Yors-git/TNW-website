@@ -14,7 +14,9 @@
 body {
   height: 100%;
 }
-
+.flex {
+  display: flex;
+}
 /*
   ========================================
   Navbar
@@ -121,3 +123,47 @@ nav h4 {
 .article3 {
   background: url(images/article3.png) no-repeat;
 }
+
+/*
+  ========================================
+  Main
+  ========================================
+*/
+.latest-news a {
+  margin: 15px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ff0000;
+  text-decoration: none;
+}
+.latest-news i {
+  color: #ff0000;
+}
+
+.news-images {
+  height: 75px ;
+  min-width: 75px;
+  background: url(images/img1.png) no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  margin-right: 15px;
+ 
+}
+
+.latest-articles{
+  margin: 15px;
+}
+.news-title {
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 700;
+  gap: 0.5em;
+}
+
+
+.news-title p:nth-child(2) {
+  font-weight: 500;
+  font-size: 10px;
+ 
+}
+
