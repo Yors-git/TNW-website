@@ -155,7 +155,6 @@ nav h4 {
 .news-images {
   height: 75px;
   min-width: 75px;
-
   background-size: cover;
   background-position: 50%;
   margin-left: 0.8em
@@ -204,4 +203,30 @@ nav h4 {
 
 .img8 {
   background: url(images/img8.jpg) no-repeat;
+}
+
+/*
+  ========================================
+  
+  ========================================
+*/
+
+.fund *{
+  font-size: 28px;
+  font-weight: 700;
+  color: #ff0000;
+  text-decoration: none;
+  list-style-type: none;
+}
+.fund {
+  margin-left: 0.8em;
+  
+}
+.fund i {
+  vertical-align: bottom;
+}
+
+.fund-links a{
+  font-weight: 400;
+  font-size: 14px;
 }
