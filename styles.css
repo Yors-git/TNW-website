@@ -20,6 +20,12 @@ body {
   Navbar
   ========================================
 */
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background-color: white;
+}
 
 nav img {
   background-color: #f42;
@@ -63,35 +69,50 @@ nav h4 {
   ========================================
 */
 
+/* main {
+  margin-top: 20rem;
+} */
+
+.main-section {
+  height: 30%;
+  padding-top: 70px;
+}
 
 .main-article {
   width: 97%;
+  height: 0;
   margin: 0 auto 0.8em;
-  padding: 0.5em;
+  padding-bottom: 30%;
   color: #fff;
   font-weight: 700;
-  
+  position: relative;
+}
+
+.content-main-article {
+  padding-left: 2%;
+  position: absolute;
+  bottom: 12px;
 }
 
 .main-article p {
+  text-overflow: clip;
   font-weight: 400;
   font-size: 14px;
 }
 
 .author {
   font-weight: 100;
-  color: #000000;
+  color: #FFFFFF99;
   font-size: 12px;
 }
-.article1 { 
-  background: url(images/article1.png)  no-repeat;
-
+.article1 {
+  background: url(images/article1.png) no-repeat;
+  background-size: cover;
+  background-position: 50%;
 }
-.article2 { 
-  background: url(images/article2.jpg)  no-repeat;
-
+.article2 {
+  background: url(images/article2.jpg) no-repeat;
 }
-.article3 { 
-  background: url(images/article3.png)  no-repeat;
-
+.article3 {
+  background: url(images/article3.png) no-repeat;
 }
