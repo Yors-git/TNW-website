@@ -136,37 +136,72 @@ nav h4 {
   Main
   ========================================
 */
-.latest-news a {
-  margin: 15px;
+.latest-news {
+  margin: 2em 0 2em 0.8em;
+}
+.latest-news * {
   font-size: 28px;
   font-weight: 700;
   color: #ff0000;
   text-decoration: none;
+
+}
+.latest-articles {
+  margin: 4% 0;
 }
 .latest-news i {
-  color: #ff0000;
+  vertical-align: bottom;
 }
-
 .news-images {
   height: 75px;
   min-width: 75px;
-  background: url(images/img1.png) no-repeat;
+
   background-size: cover;
   background-position: 50%;
-  margin-right: 15px;
-}
-
-.latest-articles {
-  margin: 15px;
+  margin-left: 0.8em
+  
 }
 .news-title {
   flex-direction: column;
   font-size: 14px;
   font-weight: 700;
-  gap: 0.5em;
+  gap: 1em;
+  margin-left: 4%;
 }
 
 .news-title p:nth-child(2) {
   font-weight: 500;
   font-size: 10px;
+  color: #555555;
+}
+
+.img1 {
+  background: url(images/img1.png) no-repeat;
+}
+
+.img2 {
+  background: url(images/img2.jpeg) no-repeat;
+}
+
+.img3 {
+  background: url(images/img3.jpeg) no-repeat;
+}
+
+.img4 {
+  background: url(images/img4.jpg) no-repeat;
+}
+.img5 {
+  background: url(images/img5.png) no-repeat;
+}
+
+.img6 {
+  background: url(images/img6.png) no-repeat;
+}
+
+.img7 {
+  background: url(images/img7.png) no-repeat;
+}
+
+.img8 {
+  background: url(images/img8.jpg) no-repeat;
 }
