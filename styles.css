@@ -144,7 +144,6 @@ nav h4 {
   font-weight: 700;
   color: #ff0000;
   text-decoration: none;
-
 }
 .latest-articles {
   margin: 4% 0;
@@ -157,8 +156,7 @@ nav h4 {
   min-width: 75px;
   background-size: cover;
   background-position: 50%;
-  margin-left: 0.8em
-  
+  margin-left: 0.8em;
 }
 .news-title {
   flex-direction: column;
@@ -207,11 +205,11 @@ nav h4 {
 
 /*
   ========================================
-  
+  Fund section
   ========================================
 */
 
-.fund *{
+.fund * {
   font-size: 28px;
   font-weight: 700;
   color: #ff0000;
@@ -220,14 +218,82 @@ nav h4 {
 }
 .fund {
   margin-left: 0.8em;
-
 }
 
 .fund i {
   vertical-align: bottom;
 }
 
-.fund-links a{
+.fund-links a {
   font-weight: 400;
   font-size: 14px;
+}
+
+.fund-art {
+  margin: 0.8em;
+}
+
+.fund-head {
+  position: relative;
+}
+
+.fund-head img {
+  width: 60px;
+  height: 60px;
+  margin: 2%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.fund-head h4 {
+  color: white;
+  font-size: 1.1rem;
+  padding: 0.7rem 1rem 0.7rem 6rem;
+  background-color: rgb(255, 68, 35);
+}
+
+.fund-text {
+  padding: 0.7rem 1rem 0.7rem 6rem;
+  background-color: rgb(255, 236, 232);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.fund-head p:nth-child(2) {
+  color: #8b807e;
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+
+.fund-center {
+  background-color: rgb(255, 250, 248);
+  padding: 1rem;
+}
+
+.fund-center a {
+  display: block;
+  font-size: 0.9rem;
+  color: #555555;
+}
+
+.fund-center i {
+  color: black;
+  padding-right: 0.6rem;
+}
+
+.fund-center a:nth-child(1) {
+  margin-bottom: 0.5rem;
+}
+
+.fund-art > p {
+  background-color: rgb(255, 250, 248);
+  padding: 1rem;
+  border-top: 1px solid rgb(255, 206, 197);
+  color: #555555;
+  font-size: 0.8rem;
+}
+
+.fund-art > p > span {
+  color: #aaa;
 }
