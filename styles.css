@@ -1,0 +1,50 @@
+/* CSS Reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100%;
+}
+
+/* navbar */
+
+nav img {
+  background-color: #f42;
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+  padding: 16px 20px;
+  height: 48px;
+  width: 106px;
+  float: left;
+}
+
+.nav-icons {
+  float: right;
+}
+
+.nav-icons .fa-search {
+  padding: 16px;
+  color: rgb(189, 189, 189);
+  border-left: 0.5px solid rgb(236, 236, 236);
+  border-right: 0.5px solid rgb(236, 236, 236);
+}
+
+.nav-icons .fa-bars {
+  padding: 16px;
+  margin-right: 5px;
+  color: rgb(255, 68, 35);
+}
+
+nav h4 {
+  width: 100%;
+  clear: both;
+  background-color: rgb(255, 221, 68);
+  text-align: center;
+  font-weight: 100;
+  font-size: 0.9rem;
+  padding: 25px;
+}
