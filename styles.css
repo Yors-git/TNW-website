@@ -105,7 +105,6 @@ nav h4 {
 }
 
 .main-article p {
-  text-overflow: clip;
   font-weight: 400;
   font-size: 14px;
 }
@@ -137,7 +136,7 @@ nav h4 {
   ========================================
 */
 .latest-news {
-  margin: 2em 0 2em 0.8em;
+  margin: 2em 0.8em 0.9em 0.8em;
 }
 .latest-news * {
   font-size: 28px;
@@ -297,3 +296,28 @@ nav h4 {
 .fund-art > p > span {
   color: #aaa;
 }
+
+/*
+  ========================================
+  Hard Fork
+  ========================================
+*/
+
+
+.hard-fork-img1 {
+  background: url(images/hard-fork-img1.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50%;
+ 
+}
+
+ .hard-fork-article{
+  width: 95%;
+  height: 0;
+  margin:  0 auto  ;
+  padding-bottom: 60%;
+  color: #fff;
+  font-weight: 700;
+  position: relative;
+} 
+
