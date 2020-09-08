@@ -136,7 +136,7 @@ nav h4 {
   ========================================
 */
 .latest-news {
-  margin: 2em 0.8em 0.9em 0.8em;
+  margin: 2em 0.8em 0.5em 0.8em;
 }
 .latest-news * {
   font-size: 28px;
@@ -299,15 +299,42 @@ nav h4 {
 
 /*
   ========================================
-  Hard Fork
+  Hard Fork and other sections
   ========================================
 */
 
 .hard-fork-img1 {
   background: url(images/hard-fork-img1.jpg) no-repeat;
-  background-size: cover;
-  background-position: 50%;
- 
+
+}
+
+.hard-fork-img2 {
+  background: url(images/hard-fork-img2.jpg) no-repeat;
+
+}
+.hard-fork-img3 {
+  background: url(images/hard-fork-img3.jpg) no-repeat;
+
+}
+.hard-fork-img4 {
+  background: url(images/hard-fork-img4.jpg) no-repeat;
+
+}
+.hard-fork-img5 {
+  background: url(images/hard-fork-img5.png) no-repeat;
+
+}
+.hard-fork-img6 {
+  background: url(images/hard-fork-img6.png) no-repeat;
+
+}
+.hard-fork-img7 {
+  background: url(images/hard-fork-img7.png) no-repeat;
+
+}
+.hard-fork-img8 {
+  background: url(images/hard-fork-img8.png) no-repeat;
+
 }
 
  .hard-fork-article{
@@ -318,6 +345,9 @@ nav h4 {
   color: #fff;
   font-weight: 700;
   position: relative;
+  background-size: cover;
+  background-position: 50%;
+ 
 } 
 
 .hard-fork-footer {
@@ -371,4 +401,26 @@ nav h4 {
   font-size: 0.9rem;
   padding: 0.5rem 0;
   border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+/*
+  ========================================
+  Hard Fork
+  ========================================
+*/
+
+.latest-deals-title {
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.latest-deals-title p {
+  margin: 2em 0.8em 0.9em 0.8em;
+  color:  #ff0000;
+  font-size: 0.8em;
+
+}
+
+.news-title span {
+  text-decoration-line: line-through;
 }
