@@ -139,8 +139,10 @@ nav h4 {
   Latest-News
   ========================================
 */
+
 .latest {
-  margin: 2em 0.8em 0.5em 0.8em;
+  margin: 1rem auto;
+  width: 95%;
 }
 
 .latest * {
@@ -151,7 +153,8 @@ nav h4 {
 }
 
 .latest-articles {
-  margin: 4% 0;
+  margin: 1rem auto;
+  width: 95%;
 }
 
 .latest i {
@@ -163,7 +166,6 @@ nav h4 {
   min-width: 75px;
   background-size: cover;
   background-position: 50%;
-  margin-left: 0.8em;
 }
 
 .latest-text {
@@ -227,7 +229,8 @@ nav h4 {
 }
 
 .fund {
-  margin-left: 0.8em;
+  width: 95%;
+  margin: 0.8rem auto
 }
 
 .fund i {
@@ -240,7 +243,8 @@ nav h4 {
 }
 
 .fund-art {
-  margin: 0.8em;
+  width: 95%;
+  margin: 0.8rem auto;
 }
 
 .fund-head {
@@ -296,7 +300,7 @@ nav h4 {
   margin-bottom: 0.5rem;
 }
 
-.fund-art > p {
+.fund-art>p {
   background-color: rgb(255, 250, 248);
   padding: 1rem;
   border-top: 1px solid rgb(255, 206, 197);
@@ -304,7 +308,7 @@ nav h4 {
   font-size: 0.8rem;
 }
 
-.fund-art > p > span {
+.fund-art>p>span {
   color: #aaa;
 }
 
@@ -418,14 +422,17 @@ nav h4 {
 */
 
 .latest-deals-title {
+  margin: 0 auto;
+  width: 95%;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .latest-deals-title p {
   margin: 2em 0.8em 0.9em 0.8em;
   color: #f00;
   font-size: 14px;
+  min-width: 6rem;
 }
 
 .latest-text span {
