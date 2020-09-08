@@ -450,13 +450,50 @@ nav h4 {
   Footer
   ========================================
 */
+.footer {
+  width: 100% ;
+  font-size: 13px;
+  font-weight: 500;
+}
+.footer-top {
+  background-color: rgb(19,19,19)
+}
 
+.footer-top  ul {
+  list-style-type: none;
+  
+}
 
+.footer-top  a {
+  text-decoration-line: none;
+  border-radius: 180px;
+  color: red;
+}
+.footer-top li {
+  background-color: green;
+  border-radius: 10px;
 
+}
 
+.footer-logos {
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
+  padding: 2rem 0 0.1rem 0;
 
+}
 
+.footer-text {
+  gap: 1rem;
+  justify-content: center;
+  padding-bottom: 2rem;
 
+}
+
+.footer-bottom {
+  background-color: #000;
+  color: red
+}
 /*
   ========================================
   Media Queries
