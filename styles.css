@@ -533,8 +533,9 @@ nav h4 {
 */
 
 @media screen and (min-width: 768px) {
-  .black-white-navs {
+  .black-white-navs  {
     display: block;
+
   }
 
   .nav-icons {
@@ -559,8 +560,6 @@ nav h4 {
     padding: 0.25rem 0 0.2rem 0;
     font-size: 13px;
   }
-
-  .black-nav {}
 
   .black-ul-1 {
     flex: 1 1 auto;
@@ -587,4 +586,21 @@ nav h4 {
   .black-ul-2 li {
     margin-left: 0.8rem;
   }
+
+
+  .white-nav * {
+    color: #aaa;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 14px;
+  }
+
+  .white-nav  {
+   justify-content: space-between;
+   align-items: center;
+  }
+  .white-nav ul {
+    margin-left: 1rem;
+    gap: 1em;
+   }
 }
