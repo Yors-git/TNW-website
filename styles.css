@@ -450,7 +450,7 @@ nav h4 {
   Footer
   ========================================
 */
-.footer {
+.footer  {
   width: 100% ;
   font-size: 13px;
   font-weight: 500;
@@ -467,32 +467,58 @@ nav h4 {
 .footer-top  a {
   text-decoration-line: none;
   border-radius: 180px;
-  color: red;
-}
-.footer-top li {
-  background-color: green;
-  border-radius: 10px;
+  color: #aaa;
 
+}
+
+.footer-logos li {
+  min-width: 40px;
+  min-height: 40px;;
+  background-color: #333;
+  border-radius: 50%;
+ 
+}
+.footer-logos i {
+  display: table-cell;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .footer-logos {
+  width: 89%;
   justify-content: center;
-  gap: 2rem;
-  margin: 2rem;
+  flex-wrap: wrap;
+  gap: 2%;
+  margin: 2rem auto;
   padding: 2rem 0 0.1rem 0;
 
 }
 
 .footer-text {
-  gap: 1rem;
+  font-size:13px;
+  gap: 0.6rem;
   justify-content: center;
+  flex-wrap: wrap;
   padding-bottom: 2rem;
-
+  
 }
 
 .footer-bottom {
   background-color: #000;
-  color: red
+  color: #aaa;
+  text-align: center;
+  padding: 2.7rem 6.25rem;
+  font-size: 13px;
+  line-height: 1.3;  
+}
+
+.footer-bottom img {
+  width:auto;
+  height: 9px;
+  display: inline-block;
 }
 /*
   ========================================
