@@ -533,9 +533,9 @@ nav h4 {
 */
 
 @media screen and (min-width: 768px) {
-   
+
   /* Navbar*/
-  .black-white-navs  {
+  .black-white-navs {
     display: block;
 
   }
@@ -574,7 +574,7 @@ nav h4 {
   .black-ul-1 li:nth-child(1) {
     margin-left: 1.3rem;
   }
-  
+
   .black-ul-1 li:nth-child(1) a {
     color: white;
   }
@@ -597,52 +597,76 @@ nav h4 {
     font-size: 14px;
   }
 
-  .white-nav  {
-   justify-content: space-between;
-   align-items: center;
+  .white-nav {
+    justify-content: space-between;
+    align-items: center;
   }
+
   .white-nav ul {
     margin-left: 1rem;
     gap: 1em;
-   }
+  }
 
-   /* Main article*/
-   .main-section {
-     padding-top: 7.1rem;
-     display: grid;
-     grid-template-columns: 2fr 1fr;
-     grid-template-rows: 1fr 1fr;
-     grid-template-areas: "article1  article2 "
-                          "article1  article3 " ;
-                          /* padding: 10px; */
-  
-                          
-                            
-   }
+  /* Main article*/
+  .main-section {
+    padding-top: 7.1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "article1  article2 "
+      "article1  article3 ";
+  }
 
-   .article1 {
-     grid-area: article1;
-     width: 515px;
-     height: 430px;
-     margin: 0 0 0 0.5rem;
-   }
+  .article1 {
+    grid-area: article1;
+    font-size: 2rem;
+    width: 98%;
+    height: 430px;
+    margin: 0 0 0 0.5rem;
+  }
 
-   .article2 {
+  .article2 {
     grid-area: article2;
-    width: 250px;
+    width: 98%;
     height: 212px;
     margin: 0 0 0 0.1rem;
-    
+
   }
 
   .article3 {
     grid-area: article3;
-    width: 250px;
+    width: 98%;
     height: 212px;
     margin: 0 0 0 0.1rem;
-    align-self: self-end;  
+    align-self: self-end;
   }
 
+  /* Second Section */
+  .second-section {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 10% 30% 30% 30%;
+  }
 
+  .ln-head {
+    margin: 2rem 0;
+    grid-column: 1 / 4;
+  }
 
+  .latest-articles {
+    margin: 1rem 0;
+    flex-direction: column;
+  }
+
+  .news-images {
+    width: 100%;
+    height: auto;
+    padding-top: 50%;
+    margin-bottom: 0.5rem;
+  }
+
+  .latest-text {
+    margin: 0;
+  }
 }
