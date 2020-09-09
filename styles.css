@@ -708,9 +708,21 @@ nav h4 {
     margin: 0.8rem 0;
   }
 
+  .fifth-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 98%;
+  }
 
+  .hard-fork {
+    flex: 0 1 48%;
+  }
 
-
+  .content-main-article h2 {
+    font-size: 1rem;
+  }
 
 
 }
