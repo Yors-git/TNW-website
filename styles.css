@@ -533,6 +533,8 @@ nav h4 {
 */
 
 @media screen and (min-width: 768px) {
+   
+  /* Navbar*/
   .black-white-navs  {
     display: block;
 
@@ -603,4 +605,44 @@ nav h4 {
     margin-left: 1rem;
     gap: 1em;
    }
+
+   /* Main article*/
+   .main-section {
+     padding-top: 7.1rem;
+     display: grid;
+     grid-template-columns: 2fr 1fr;
+     grid-template-rows: 1fr 1fr;
+     grid-template-areas: "article1  article2 "
+                          "article1  article3 " ;
+                          /* padding: 10px; */
+  
+                          
+                            
+   }
+
+   .article1 {
+     grid-area: article1;
+     width: 515px;
+     height: 430px;
+     margin: 0 0 0 0.5rem;
+   }
+
+   .article2 {
+    grid-area: article2;
+    width: 250px;
+    height: 212px;
+    margin: 0 0 0 0.1rem;
+    
+  }
+
+  .article3 {
+    grid-area: article3;
+    width: 250px;
+    height: 212px;
+    margin: 0 0 0 0.1rem;
+    align-self: self-end;  
+  }
+
+
+
 }
