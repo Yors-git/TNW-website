@@ -248,7 +248,7 @@ nav h4 {
 
 .fund-art {
   width: 95%;
-  margin: 0.8rem auto;
+  margin: 0.8rem 2%;
 }
 
 .fund-head {
@@ -670,45 +670,43 @@ nav h4 {
     margin: 0;
   }
 
- /* Fund Section */
+  /* Fund Section */
 
-.fund {
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
+  .fund {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin: 0 auto;
+    width: 96%;
+  }
 
-}
+  .fund-links {
+    display: flex;
+    /* line-height: 0.8; */
+    /* padding: 1rem 0 2rem 0; */
 
-.fund-links {
-  display: flex;
-  gap: 2rem;
-  line-height: 0.8;
-  padding: 1rem 0 2rem 0;
+  }
 
-}
+  .fund-links li {
+    margin-right: 0.8rem;
+  }
 
-.fund-links li:nth-child(2)::after {
-  /* content: "|";
-  margin-left: 10px;
-  margin-right: 10px;
-  display: inline-block;
-  pointer-events: none;
-  position: absolute; */
-  border-right: 1px solid red;
-  border-left: 1px solid red;
-  height: auto;
-  padding: 0 1rem;
-}
+  .border-link {
+    border-right: 1px solid #f00;
+    padding-right: 0.8rem;
+  }
 
-.test {
-  display: flex;
-  justify-content: space-between;
- 
-}
+  .fourth-section {
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    margin: 0 auto;
+    gap: 2%;
+  }
 
-.fund-art {
-  margin: 0.8rem;
-}
+  .fund-art {
+    margin: 0.8rem 0;
+  }
 
 
 
