@@ -556,21 +556,35 @@ nav h4 {
     text-decoration: none;
     list-style: none;
     color: #ffffff99;
-    padding: .5rem 0;
+    padding: 0.25rem 0 0.2rem 0;
     font-size: 13px;
   }
 
+  .black-nav {}
+
   .black-ul-1 {
-    
+    flex: 1 1 auto;
   }
 
   .black-ul-1 li {
-    
     margin-left: 0.8rem;
   }
 
-  .black-ul-1 a {
-    
-    
+  .black-ul-1 li:nth-child(1) {
+    margin-left: 1.3rem;
+  }
+  
+  .black-ul-1 li:nth-child(1) a {
+    color: white;
+  }
+
+  .black-ul-2 {
+    flex: 1 1 auto;
+    padding-right: 20px;
+    justify-content: flex-end;
+  }
+
+  .black-ul-2 li {
+    margin-left: 0.8rem;
   }
 }
