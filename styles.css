@@ -168,7 +168,6 @@ nav h4 {
 .news-images {
   height: 75px;
   min-width: 75px;
-
 }
 
 .latest-text {
@@ -177,6 +176,21 @@ nav h4 {
   font-weight: 700;
   gap: 1em;
   margin-left: 4%;
+}
+
+.fund-art > p {
+  background-color: rgb(255, 250, 248);
+  padding: 1rem;
+  border-top: 1px solid rgb(255, 206, 197);
+  color: #555;
+  font-size: 0.8rem;
+}
+
+.latest-deals-title p {
+  margin: 0 -0.2em 1.4em 0.8em;
+  color: #f00;
+  font-size: 14px;
+  min-width: 6rem;
 }
 
 .latest-text p:nth-child(2) {
@@ -188,7 +202,6 @@ nav h4 {
 .img1 {
   background: url(images/img1.png) no-repeat;
   background-size: cover;
-
 }
 
 .img2 {
@@ -242,7 +255,7 @@ nav h4 {
 
 .fund {
   width: 95%;
-  margin: 0.8rem auto
+  margin: 0.8rem auto;
 }
 
 .fund i {
@@ -308,19 +321,24 @@ nav h4 {
   padding-right: 0.6rem;
 }
 
+.footer-top a {
+  text-decoration-line: none;
+  border-radius: 180px;
+  color: #aaa;
+}
+
 .fund-center a:nth-child(1) {
   margin-bottom: 0.5rem;
 }
 
-.fund-art>p {
-  background-color: rgb(255, 250, 248);
-  padding: 1rem;
-  border-top: 1px solid rgb(255, 206, 197);
-  color: #555;
-  font-size: 0.8rem;
+.latest-text span {
+  text-decoration-line: line-through;
+  font-size: 10px;
+  padding-right: 1em;
+  color: #aaa;
 }
 
-.fund-art>p>span {
+.fund-art > p > span {
   color: #aaa;
 }
 
@@ -440,19 +458,6 @@ nav h4 {
   align-items: flex-end;
 }
 
-.latest-deals-title p {
-  margin: 0em -0.2em 1.4em 0.8em;
-  color: #f00;
-  font-size: 14px;
-  min-width: 6rem;
-}
-
-.latest-text span {
-  text-decoration-line: line-through;
-  font-size: 10px;
-  padding-right: 1em;
-  color: #aaa;
-}
 
 /*
   ========================================
@@ -472,12 +477,6 @@ nav h4 {
 
 .footer-top ul {
   list-style-type: none;
-}
-
-.footer-top a {
-  text-decoration-line: none;
-  border-radius: 180px;
-  color: #aaa;
 }
 
 .footer-logos li {
@@ -503,7 +502,6 @@ nav h4 {
   gap: 2%;
   margin: 2rem auto;
   padding: 2rem 0 0.1rem 0;
-
 }
 
 .footer-text {
@@ -512,7 +510,6 @@ nav h4 {
   justify-content: center;
   flex-wrap: wrap;
   padding-bottom: 2rem;
-
 }
 
 .footer-bottom {
@@ -537,11 +534,9 @@ nav h4 {
 */
 
 @media screen and (min-width: 768px) {
-
-  /* Navbar*/
+  /* Navbar */
   .black-white-navs {
     display: block;
-
   }
 
   .nav-icons {
@@ -562,7 +557,7 @@ nav h4 {
     background: rgb(19, 19, 19);
     text-decoration: none;
     list-style: none;
-    color: #ffffff99;
+    color: #fff9;
     padding: 0.25rem 0 0.2rem 0;
     font-size: 13px;
   }
@@ -572,6 +567,14 @@ nav h4 {
   }
 
   .black-ul-1 li {
+    margin-left: 0.8rem;
+  }
+
+  .fund-links li {
+    margin-right: 0.8rem;
+  }
+
+  .black-ul-2 li {
     margin-left: 0.8rem;
   }
 
@@ -588,11 +591,6 @@ nav h4 {
     padding-right: 20px;
     justify-content: flex-end;
   }
-
-  .black-ul-2 li {
-    margin-left: 0.8rem;
-  }
-
 
   .white-nav * {
     color: #aaa;
@@ -611,13 +609,14 @@ nav h4 {
     gap: 1em;
   }
 
-  /* Main article*/
+  /* Main article */
   .main-section {
     padding-top: 7.1rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: "article1  article2 "
+    grid-template-areas:
+      "article1  article2 "
       "article1  article3 ";
   }
 
@@ -634,7 +633,6 @@ nav h4 {
     width: 98%;
     height: 212px;
     margin: 0 0 0 0.1rem;
-
   }
 
   .article3 {
@@ -687,10 +685,6 @@ nav h4 {
 
   .fund-links {
     display: flex;
-  }
-
-  .fund-links li {
-    margin-right: 0.8rem;
   }
 
   .border-link {
@@ -753,11 +747,14 @@ nav h4 {
 
 /* Desktop  */
 @media screen and (min-width: 1024px) {
-
   /* Nav Bar  */
   nav h4 {
     text-align: left;
     padding: 0.5rem 0 0.5rem 1rem;
+  }
+
+  nav > a {
+    display: none;
   }
 
   .black-nav a:hover {
@@ -766,10 +763,6 @@ nav h4 {
 
   .white-nav a:hover {
     color: #000;
-  }
-
-  nav>a {
-    display: none;
   }
 
   .logo {
