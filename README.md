@@ -1,4 +1,4 @@
-# Smashing Magazine GrayScale
+# TheNextWeb Responsive Design
 
 > In this project we created a TheNextWeb website responsive clone.
 
@@ -35,4 +35,3 @@ Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](enter issues url here).
 
-## Show your support
