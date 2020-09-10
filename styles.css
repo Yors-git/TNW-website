@@ -804,4 +804,10 @@ nav h4 {
     grid-column: 1 / 5;
   }
 
+  .fund {
+    width: 79%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
 }
