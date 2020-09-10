@@ -168,8 +168,6 @@ nav h4 {
 .news-images {
   height: 75px;
   min-width: 75px;
-  background-size: cover;
-  background-position: 50%;
 }
 
 .latest-text {
@@ -188,34 +186,42 @@ nav h4 {
 
 .img1 {
   background: url(images/img1.png) no-repeat;
+  background-size: cover;
 }
 
 .img2 {
   background: url(images/img2.jpeg) no-repeat;
+  background-size: cover;
 }
 
 .img3 {
   background: url(images/img3.jpeg) no-repeat;
+  background-size: cover;
 }
 
 .img4 {
   background: url(images/img4.jpg) no-repeat;
+  background-size: cover;
 }
 
 .img5 {
   background: url(images/img5.png) no-repeat;
+  background-size: cover;
 }
 
 .img6 {
   background: url(images/img6.png) no-repeat;
+  background-size: cover;
 }
 
 .img7 {
   background: url(images/img7.png) no-repeat;
+  background-size: cover;
 }
 
 .img8 {
   background: url(images/img8.jpg) no-repeat;
+  background-size: cover;
 }
 
 /*
@@ -664,6 +670,7 @@ nav h4 {
     height: auto;
     padding-top: 50%;
     margin-bottom: 0.5rem;
+    background-size: cover;
   }
 
   .latest-text {
@@ -720,9 +727,12 @@ nav h4 {
     flex: 0 1 48%;
   }
 
-  .content-main-article h2 {
-    font-size: 1rem;
+  .article1 h2 {
+    font-size: 2.5rem;
   }
 
-
+  .article2 h2,
+  .article3 h2 {
+    font-size: 1.2rem;
+  }
 }
