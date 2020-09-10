@@ -439,7 +439,7 @@ nav h4 {
 }
 
 .latest-deals-title p {
-  margin: 2em 0.8em 0.9em 0.8em;
+  margin: 0em -0.2em 1.4em 0.8em;
   color: #f00;
   font-size: 14px;
   min-width: 6rem;
@@ -653,6 +653,7 @@ nav h4 {
     display: grid;
     grid-template-columns: 32% 32% 32%;
     grid-template-rows: 10% 30% 30% 30%;
+    grid-gap: 5px;
   }
 
   .ln-head {
@@ -661,7 +662,7 @@ nav h4 {
   }
 
   .latest-articles {
-    margin: 1rem 0;
+    margin: 1rem 5px;
     flex-direction: column;
   }
 
@@ -670,7 +671,6 @@ nav h4 {
     height: auto;
     padding-top: 50%;
     margin-bottom: 0.5rem;
-    background-size: cover;
   }
 
   .latest-text {
@@ -734,5 +734,25 @@ nav h4 {
   .article2 h2,
   .article3 h2 {
     font-size: 1.2rem;
+  }
+
+  /* Sixth-section */
+  .sixth-section {
+    display: flex;
+    margin-top: 2.5rem;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 10% 30% 30% 30%;
+    grid-gap: 5px;
+  }
+
+  .ld-head {
+    margin: 1rem 0 0 0.3rem;
+    grid-column: 1 / 4;
+  }
+
+  .latest-deals-title p {
+    margin: 1em -3.1em 1.4em 0.8em;
   }
 }
