@@ -112,7 +112,6 @@ nav h4 {
 
 .article1 {
   background: url(images/article1.png) no-repeat;
-  /* background-size: cover; */
 }
 
 .article2 {
@@ -137,6 +136,7 @@ nav h4 {
 .font-w-700 {
   font-weight: 700;
 }
+
 /*
   ========================================
   Latest-News
@@ -249,7 +249,8 @@ nav h4 {
   list-style-type: none;
 }
 
-.fund, .fund-art {
+.fund,
+.fund-art {
   width: 95%;
   margin: 0.8rem auto;
 }
