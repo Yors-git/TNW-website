@@ -99,16 +99,6 @@ nav h4 {
   z-index: 3;
 }
 
-.main-article {
-  width: 97%;
-  height: 0;
-  margin: 0 auto 0.8em;
-  padding-bottom: 63%;
-  color: #fff;
-  font-weight: 700;
-  position: relative;
-}
-
 .main-article p {
   font-weight: 400;
   font-size: 14px;
@@ -122,22 +112,31 @@ nav h4 {
 
 .article1 {
   background: url(images/article1.png) no-repeat;
-  background-size: cover;
-  background-position: 50%;
+  /* background-size: cover; */
 }
 
 .article2 {
   background: url(images/article2.jpg) no-repeat;
-  background-size: cover;
-  background-position: 50%;
 }
 
 .article3 {
   background: url(images/article3.png) no-repeat;
+}
+
+.main-article {
+  width: 97%;
+  height: 0;
+  margin: 0 auto 0.8em;
+  padding-bottom: 63%;
+  color: #fff;
+  position: relative;
   background-size: cover;
   background-position: 50%;
 }
 
+.font-w-700 {
+  font-weight: 700;
+}
 /*
   ========================================
   Latest-News
@@ -165,15 +164,9 @@ nav h4 {
   vertical-align: bottom;
 }
 
-.news-images {
-  height: 75px;
-  min-width: 75px;
-}
-
 .latest-text {
   flex-direction: column;
   font-size: 14px;
-  font-weight: 700;
   gap: 1em;
   margin-left: 4%;
 }
@@ -188,7 +181,6 @@ nav h4 {
 
 .latest-deals-title p {
   margin: 0 -0.2em 1.4em 0.8em;
-  color: #f00;
   font-size: 14px;
   min-width: 6rem;
 }
@@ -201,59 +193,63 @@ nav h4 {
 
 .img1 {
   background: url(images/img1.png) no-repeat;
-  background-size: cover;
 }
 
 .img2 {
   background: url(images/img2.jpeg) no-repeat;
-  background-size: cover;
 }
 
 .img3 {
   background: url(images/img3.jpeg) no-repeat;
-  background-size: cover;
 }
 
 .img4 {
   background: url(images/img4.jpg) no-repeat;
-  background-size: cover;
 }
 
 .img5 {
   background: url(images/img5.png) no-repeat;
-  background-size: cover;
 }
 
 .img6 {
   background: url(images/img6.png) no-repeat;
-  background-size: cover;
 }
 
 .img7 {
   background: url(images/img7.png) no-repeat;
-  background-size: cover;
 }
 
 .img8 {
   background: url(images/img8.jpg) no-repeat;
+}
+
+.news-images {
+  height: 75px;
+  min-width: 75px;
   background-size: cover;
 }
 
 /*
-  ========================================
+========================================
   Fund section
   ========================================
 */
 
+.light-gray {
+  color: #aaa;
+}
+
+.bright-red {
+  color: #f00;
+}
+
 .fund * {
   font-size: 28px;
-  font-weight: 700;
-  color: #f00;
   text-decoration: none;
   list-style-type: none;
 }
 
-.fund {
+.fund, .fund-art {
   width: 95%;
   margin: 0.8rem auto;
 }
@@ -265,11 +261,6 @@ nav h4 {
 .fund-links a {
   font-weight: 400;
   font-size: 14px;
-}
-
-.fund-art {
-  width: 95%;
-  margin: 0.8rem 2%;
 }
 
 .fund-head {
@@ -324,7 +315,6 @@ nav h4 {
 .footer-top a {
   text-decoration-line: none;
   border-radius: 180px;
-  color: #aaa;
 }
 
 .fund-center a:nth-child(1) {
@@ -335,11 +325,6 @@ nav h4 {
   text-decoration-line: line-through;
   font-size: 10px;
   padding-right: 1em;
-  color: #aaa;
-}
-
-.fund-art > p > span {
-  color: #aaa;
 }
 
 /*
@@ -381,34 +366,30 @@ nav h4 {
 }
 
 .hard-fork-article {
-  width: 95%;
   height: 0;
-  margin: 0 auto;
   padding-bottom: 60%;
   color: #fff;
-  font-weight: 700;
   position: relative;
   background-size: cover;
   background-position: 50%;
 }
 
 .hard-fork-footer {
-  width: 95%;
-  margin: 0.1rem auto;
+  padding: 0.1rem 0;
   justify-content: space-between;
 }
 
 .hard-fork-title {
   padding: 0.8rem 0.9rem 0;
   background-color: rgb(255, 236, 232);
-  color: #f00;
   flex-direction: column;
   font-size: 0.9rem;
   flex-grow: 1;
 }
 
-.hard-fork-title p:nth-child(2) {
-  font-weight: 700;
+.hf-width-mg {
+  width: 95%;
+  margin: 0 auto;
 }
 
 .hard-fork-thumbnail {
@@ -422,10 +403,7 @@ nav h4 {
 }
 
 .hard-fork ul {
-  width: 95%;
-  margin: 0 auto;
   padding: 0 1rem;
-  color: #f00;
   list-style: none;
 }
 
@@ -452,8 +430,6 @@ nav h4 {
 */
 
 .latest-deals-title {
-  margin: 0 auto;
-  width: 95%;
   justify-content: space-between;
   align-items: flex-end;
 }
@@ -513,7 +489,6 @@ nav h4 {
 
 .footer-bottom {
   background-color: #000;
-  color: #aaa;
   text-align: center;
   padding: 2.7rem 6.25rem;
   font-size: 13px;
@@ -592,7 +567,6 @@ nav h4 {
   }
 
   .white-nav * {
-    color: #aaa;
     text-decoration: none;
     list-style-type: none;
     font-size: 14px;
@@ -674,16 +648,15 @@ nav h4 {
 
   /* Fund Section */
 
-  .fund {
+  .d-flex {
     display: flex;
+  }
+
+  .fund {
     flex-direction: column;
     align-content: space-between;
     margin: 0 auto;
     width: 96%;
-  }
-
-  .fund-links {
-    display: flex;
   }
 
   .border-link {
@@ -692,7 +665,6 @@ nav h4 {
   }
 
   .fourth-section {
-    display: flex;
     justify-content: space-between;
     width: 96%;
     margin: 0 auto;
@@ -704,7 +676,6 @@ nav h4 {
   }
 
   .fifth-section {
-    display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
     justify-content: space-between;
